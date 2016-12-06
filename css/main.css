@@ -21,6 +21,42 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: #fff;
+}
+
+.masthead {
+  background-image: url("../images/gumdrops.jpg");
+  color: #fff;
+}
+
+.assortments {
+  background-image: url("../images/.jpg");
+  color: #fff;
+}
+
+.gum {
+  background-image: url("../images/gum.jpg");
+  color: #fff;
+}
+
+.gummies {
+  background-image: url("../images/gummy-worms.jpg");
+  color: #fff;
+}
+
+.hardcandy {
+  background-image: url("../images/hard-candy.jpg");
+  color: #fff;
+}
+
+.sprinkles {
+  background-image: url("../images/.jpg");
+  color: #fff;
+}
+
+
+
 nav {
   text-decoration: none;
 }
