@@ -27,36 +27,56 @@ h1 {
 
 .masthead {
   background-image: url("../images/gumdrops.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
 .assortments {
   background-image: url("../images/.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
 .gum {
   background-image: url("../images/gum.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
 .gummies {
   background-image: url("../images/gummy-worms.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
 .hardcandy {
   background-image: url("../images/hard-candy.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
 .sprinkles {
   background-image: url("../images/.jpg");
+  background-size: 1500px;
   color: #fff;
 }
 
-
-
 nav {
+  text-align: center;
+}
+
+nav a {
   text-decoration: none;
+  color: #fff;
+  background-color: #F04F71;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-size: 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #F04F71;
+  background-color: #fff;
 }
