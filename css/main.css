@@ -32,33 +32,27 @@ h1 {
 }
 
 .assortments {
-  background-image: url("../images/.jpg");
-  background-size: 1500px;
-  color: #fff;
+  background-color: #ecb8e8;
+}
+
+.chocolate {
+  background-color: #cbace8;
 }
 
 .gum {
-  background-image: url("../images/gum.jpg");
-  background-size: 1500px;
-  color: #fff;
+  background-color: #9bf1f8;
 }
 
 .gummies {
-  background-image: url("../images/gummy-worms.jpg");
-  background-size: 1500px;
-  color: #fff;
+  background-color: #ecb8e8;
 }
 
 .hardcandy {
-  background-image: url("../images/hard-candy.jpg");
-  background-size: 1500px;
-  color: #fff;
+  background-color: #cbace8;
 }
 
 .sprinkles {
-  background-image: url("../images/.jpg");
-  background-size: 1500px;
-  color: #fff;
+  background-color: #9bf1f8;
 }
 
 nav {
@@ -69,7 +63,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   background-color: #F04F71;
-  padding: 1em;
+  padding: .75em;
   border-radius: 8px;
 }
 
@@ -79,4 +73,8 @@ nav a:hover {
   background-repeat: no-repeat;
   color: #F04F71;
   background-color: #fff;
+}
+
+img {
+  width: 50%;
 }

@@ -29,12 +29,12 @@
       <h2 class="text-center push-0 pad-t-2">Products</h2>
       <p class="text-center">With a large variety of treats, there is something for everyone!</p>
       <ul class="text-center list-group push-2">
-        <li class="assortments">Assortments</li>
-        <li class="chocolate">Chocolate</li>
-        <li class="gum">Gum</li>
-        <li class="gummies">Gummies</li>
-        <li class="hardcandy">Hard Candy</li>
-        <li class="sprinkles">Sprinkles</li>
+        <li class="assortments island-1-2">Assortments</li>
+        <li class="chocolate island-1-2">Chocolate</li>
+        <li class="gum island-1-2">Gum</li>
+        <li class="gummies island-1-2">Gummies</li>
+        <li class="hardcandy island-1-2">Hard Candy</li>
+        <li class="sprinkles island-1-2">Sprinkles</li>
       </ul>
     </section>
 
@@ -55,6 +55,7 @@
 
     <section>
       <h2 class="text-center push-0">About</h2>
+      <img class="island" src="images/beau.jpg" alt="">
       <p class="text-center push-2 max-length">Beau's Bonbons was founded in 1994, by Beau Belbin. Beau has been a fun and innovative candy supplier for over 20 years. Situated in the heart of Montreal, Beau provides delicious sweets for all your party and events.</p>
     </section>
 
@@ -62,9 +63,33 @@
       <h2 class="text-center push-0">Contact</h2>
       <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6<p>
       <p class="text-center">(613)726-5215</p>
-      <form class="" action="index.html" method="post">
-      </form>
     </section>
+
+    <section class="contact pad-t-2 pad-b-2">
+  <div class="max-length">
+    <h2 class="text-center">Question?</h2>
+
+    <form class="push-0" method="POST" action="http://formspree.iobradlet@algonquincollege.com">
+      <div class="push">
+        <label for="name">Name</label>
+        <input id="name" name="name">
+      </div>
+      <div class="push">
+        <label for="email">Your email</label>
+        <input id="email" type="email" name="name">
+      </div>
+      <div class="push">
+        <label for="details">Question</label>
+        <textarea id="details" name="message">
+        </textarea>
+      </div>
+      <div>
+        <button class="btn btn-light" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
   </main>
 </body>
 </html>
