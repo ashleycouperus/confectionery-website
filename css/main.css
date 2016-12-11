@@ -75,6 +75,11 @@ nav a:hover {
   background-color: #bea8f6;
 }
 
-img {
+.beau {
   width: 50%;
+  margin-left: 13em;
+}
+
+footer {
+  background-color: #fdb8ca;
 }
