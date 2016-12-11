@@ -26,33 +26,9 @@ h1 {
 }
 
 .masthead {
-  background-image: url("../images/gumdrops.jpg");
-  background-size: 1500px;
+  background-image: url("../images/gummyworms.jpg");
+  background-size: 1000px;
   color: #fff;
-}
-
-.assortments {
-  background-color: #ecb8e8;
-}
-
-.chocolate {
-  background-color: #cbace8;
-}
-
-.gum {
-  background-color: #9bf1f8;
-}
-
-.gummies {
-  background-color: #ecb8e8;
-}
-
-.hardcandy {
-  background-color: #cbace8;
-}
-
-.sprinkles {
-  background-color: #9bf1f8;
 }
 
 nav {
@@ -62,7 +38,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #fff;
-  background-color: #F04F71;
+  background-color: #f04f71;
   padding: .75em;
   border-radius: 8px;
 }
@@ -71,8 +47,32 @@ nav a:hover {
   background-size: 64px;
   background-position: center;
   background-repeat: no-repeat;
-  color: #F04F71;
+  color: #f04f71;
   background-color: #fff;
+}
+
+.assortments {
+  background-color: #fdb8ca;
+}
+
+.chocolate {
+  background-color: #fe976c;
+}
+
+.gum {
+  background-color: #e9da63;
+}
+
+.gummies {
+  background-color: #8ecc8b;
+}
+
+.hardcandy {
+  background-color: #8dcfe7;
+}
+
+.sprinkles {
+  background-color: #bea8f6;
 }
 
 img {
