@@ -5,8 +5,9 @@
   <title>Beau's Bonbons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
@@ -30,7 +31,7 @@
       <p class="text-center push-1">With a large variety of treats, there is something for everyone!</p>
       <ul class="grid list-group">
         <li class="text-center push-2">
-          <div class="unit xs-1 s-1 m-1-4 l-1-4 assortments">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 assortments">
             <i class="icon i-64">
               <img src="images/icon1.svg" alt="">
             </i>
@@ -72,7 +73,7 @@
 
     <section>
       <h2 class="text-center push-0">Location</h2>
-      <p class="text-center">1215 Rue Mansfield<br>Montreal, QC</br>H3B 4G6</p>
+      <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6</p>
       <h2 class="text-center push-0">Hours</h2>
       <ul class="text-center list-group push-2">
         <li>Monday: 9am – 9pm</li>
@@ -93,34 +94,34 @@
 
     <section>
       <h2 class="text-center push-0">Contact</h2>
-      <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6<p>
+      <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6</p>
       <p class="text-center">(613)726-5215</p>
     </section>
 
     <section class="contact pad-t-2 pad-b-2">
-  <div class="max-length">
-    <h2 class="text-center">Questions?</h2>
+      <div class="max-length">
+        <h2 class="text-center">Questions?</h2>
 
-    <form class="push-0" method="POST" action="http://formspree.iobradlet@algonquincollege.com">
-      <div class="push">
-        <label for="name">Name</label>
-        <input id="name" name="name">
+        <form class="push-0" method="POST" action="http://formspree.iobradlet@algonquincollege.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" name="name">
+          </div>
+          <div class="push">
+            <label for="details">Question</label>
+            <textarea id="details" name="message">
+            </textarea>
+          </div>
+          <div>
+            <button class="btn btn-light" type="submit">Send</button>
+          </div>
+        </form>
       </div>
-      <div class="push">
-        <label for="email">Your email</label>
-        <input id="email" type="email" name="name">
-      </div>
-      <div class="push">
-        <label for="details">Question</label>
-        <textarea id="details" name="message">
-        </textarea>
-      </div>
-      <div>
-        <button class="btn btn-light" type="submit">Send</button>
-      </div>
-    </form>
-  </div>
-</section>
+    </section>
 
   </main>
 </body>
