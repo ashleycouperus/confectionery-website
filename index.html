@@ -11,27 +11,33 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead grid grid-middle island">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to main content</a></li>
+  </ul>
+
+  <header role="banner" class="masthead grid grid-middle island">
     <div class="unit xs-1 s-1 m-1 l-1-4">
       <h1 class="yotta text-center pad-t-2">Beau's Bonbons</h1>
     </div>
-    <nav class="unit xs-1-2 s-1-2 m-1 l-3-4">
-      <ul class="list-group-inline">
-        <li class="island-1-4"><a href="#">About</a></li>
-        <li class="island-1-4"><a href="#">Products</a></li>
-        <li class="island-1-4"><a href="#">Location</a></li>
-        <li class="island-1-4"><a href="#">Contact</a></li>
+    <nav role="navigation" id="nav" class="unit xs-1-2 s-1-2 m-1 l-3-4">
+      <ul class="list-group-inline gutter-1-4">
+        <li class="island-1-4"><a href="#about">About</a></li>
+        <li class="island-1-4"><a href="#products">Products</a></li>
+        <li class="island-1-4"><a href="#location">Location</a></li>
+        <li class="island-1-4"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
+  <main role="main">
+    <section id="products">
       <h2 class="text-center push-0 pad-t-2">Products</h2>
       <p class="text-center push-1">With a large variety of treats, there is something for everyone!</p>
-      <ul class="grid list-group">
+      <ul class="list-group">
         <li class="text-center push-2">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 assortments">
+          <div class="assortments">
             <i class="icon i-48">
               <img src="images/icon1.svg" alt="">
             </i>
@@ -71,7 +77,7 @@
       </ul>
     </section>
 
-    <section>
+    <section id="location">
       <h2 class="text-center push-0 pad-t-2">Location</h2>
       <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6</p>
       <h2 class="text-center push-0">Hours</h2>
@@ -86,13 +92,15 @@
       </ul>
     </section>
 
-    <section class="about">
-      <h2 class="text-center pad-t-2 push-0">About</h2>
-      <img class="beau island" src="images/beau.jpg" alt="">
+    <section id="about" class="about">
+      <h2 class="text-center pad-t-2">About</h2>
+      <div class="embed embed-3by1">
+        <img class="embed-content beau island" src="images/beau.jpg" alt="">
+      </div>
       <p class="text-center push-2 max-length">Beau's Bonbons was founded in 1994, by Beau Belbin. Beau has been a fun and innovative candy supplier for over 20 years. Situated in the heart of Montreal, Beau provides delicious sweets for all your party and events.</p>
     </section>
 
-    <section>
+    <section id="contact">
       <h2 class="text-center push-0 pad-t-2">Contact</h2>
       <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6</p>
       <p class="text-center">(613)726-5215</p>
@@ -102,7 +110,7 @@
       <div class="max-length">
         <h2 class="text-center">Questions?</h2>
 
-        <form class="push-0" method="POST" action="http://formspree.iobradlet@algonquincollege.com">
+        <form class="push-0" method="POST" action="http://formspree.io/coup0022@algonquinlive.com">
           <div class="push">
             <label for="name">Name</label>
             <input id="name" name="name">
@@ -123,11 +131,9 @@
       </div>
     </section>
 
-    <section>
-      <footer class="island">
-        <p>©2016 Beau's Bonbons. All rights reserved.</p>
-      </footer>
-    </section>
+    <footer role="contentinfo" class="island">
+      <p>©2016 Beau's Bonbons. All rights reserved.</p>
+    </footer>
   </main>
 </body>
 </html>
