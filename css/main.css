@@ -28,6 +28,7 @@ h1 {
 .masthead {
   background-image: url("../images/gummyworms.jpg");
   background-size: 1000px;
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -75,10 +76,6 @@ nav a:hover {
   background-color: #bea8f6;
 }
 
-.beau {
-  width: 50%;
-}
-
 footer {
   background-color: #fdb8ca;
 }
@@ -99,4 +96,15 @@ footer {
   color: #f04f71;
   background-color: #fff;
   border-color: #f04f71;
+}
+
+.wrapper {
+  max-width: 20em;
+}
+
+@media only screen and (min-width: 60em) {
+  body {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
 }
