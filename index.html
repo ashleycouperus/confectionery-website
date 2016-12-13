@@ -80,16 +80,23 @@
     <section id="location">
       <h2 class="text-center push-0 pad-t-2">Location</h2>
       <p class="text-center">1215 Rue Mansfield<br>Montreal, QC<br>H3B 4G6</p>
-      <h2 class="text-center push-0">Hours</h2>
-      <ul class="text-center list-group push-2">
-        <li>Monday: 9am – 9pm</li>
-        <li>Tuesday: 9am – 9pm</li>
-        <li>Wednesday: 9am – 9pm</li>
-        <li>Thursday: 9am – 9pm</li>
-        <li>Friday: 9am – 9pm</li>
-        <li>Saturday: 8am – 9pm</li>
-        <li>Sunday: 8am – 7pm</li>
-      </ul>
+      <div>
+        <h2 class="text-center push-0">Hours</h2>
+        <table class="island-2 wrapper">
+          <thead class="text-center push-2">
+            <tr>
+              <th scope="col">Weekdays</th>
+              <th scope="col">Weekends</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>9am – 9pm</td>
+              <td>8am – 9pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section id="about" class="about">
@@ -125,14 +132,14 @@
             </textarea>
           </div>
           <div>
-            <button class="btn btn-light" type="submit">Send</button>
+            <button class="btn" type="submit">Send</button>
           </div>
         </form>
       </div>
     </section>
 
     <footer role="contentinfo" class="island">
-      <p>©2016 Beau's Bonbons. All rights reserved.</p>
+      <p class="milli">©2016 Beau's Bonbons. All rights reserved.</p>
     </footer>
   </main>
 </body>

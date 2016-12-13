@@ -82,3 +82,21 @@ nav a:hover {
 footer {
   background-color: #fdb8ca;
 }
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f04f71;
+  padding: .75em;
+  border-radius: 8px;
+  border-color: #fff;
+}
+
+.btn:hover {
+  background-size: 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f04f71;
+  background-color: #fff;
+  border-color: #f04f71;
+}
