@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #cfe;
 }
 
 h1 {
@@ -76,6 +77,10 @@ nav a:hover {
   background-color: #bea8f6;
 }
 
+.main {
+  background-color: #fff;
+}
+
 footer {
   background-color: #fdb8ca;
 }
@@ -103,8 +108,17 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
   body {
     padding-left: 10em;
     padding-right: 10em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    padding-left: 18em;
+    padding-right: 18em;
   }
 }
